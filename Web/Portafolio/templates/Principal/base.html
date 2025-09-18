@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="{% static 'Principal/output.css' %}">
+</head>
+<body class="bg-gray-900 text-white flex min-h-screen">
+    <aside class="sidebar">
+        <!-- Header con avatar y nombre -->
+        <div class="sidebar-header">
+            <img src="{% static 'Principal/avatar.jpg' %}" alt="Gabriel Verdejo" class="sidebar-avatar">
+            <div class="sidebar-name">Gabriel Verdejo</div>
+            <div class="sidebar-role">Ingeniero en Informática</div>
+        </div>
+
+        <div>
+            <h2 class="sidebar-title">Menú</h2>
+            <nav>
+                <a href="#" class="sidebar-link sidebar-link-active">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="sidebar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0h6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Inicio
+                </a>
+                <a href="#" class="sidebar-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="sidebar-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M17 20h5V4H2v16h5m10 0v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Sobre mí
+                </a>
+                <a href="#" class="sidebar-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="sidebar-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Proyectos
+                    <span class="sidebar-badge">12</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="sidebar-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Experiencia
+                </a>
+                <a href="#" class="sidebar-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="sidebar-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M12 20h9M12 4h9M4 9h16M4 15h16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Documentos
+                </a>
+            </nav>
+
+            <div class="sidebar-divider"></div>
+
+            <h3 class="sidebar-section">Tecnologías</h3>
+            <ul>
+                <li class="sidebar-section-item">
+                    <span class="sidebar-circle">JS</span> JavaScript
+                </li>
+                <li class="sidebar-section-item">
+                    <span class="sidebar-circle">PY</span> Python
+                </li>
+                <li class="sidebar-section-item">
+                    <span class="sidebar-circle">DJ</span> Django
+                </li>
+                <li class="sidebar-section-item">
+                    <span class="sidebar-circle">TW</span> Tailwind CSS
+                </li>
+            </ul>
+        </div>
+
+        <!-- Footer de contacto -->
+        <div class="sidebar-footer">
+            <div class="sidebar-contact">
+                <div>¿Te interesa trabajar conmigo?</div>
+                <a href="mailto:tuemail@ejemplo.com">tuemail@ejemplo.com</a>
+                <div class="mt-2">
+                    <a href="https://github.com/tuusuario" target="_blank">GitHub</a> ·
+                    <a href="https://linkedin.com/in/tuusuario" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <!-- Aquí puedes agregar el contenido principal de tu portafolio -->
+    <main class="flex-1 p-10">
+        <!-- Contenido dinámico -->
+    </main>
+</body>
+</html>
