@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'crispy_forms',
     'Portafolio',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -126,3 +127,7 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# tailwind
+
+CRISPY_TEMPLATE_PACK = 'tailwind'
