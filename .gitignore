@@ -1,0 +1,46 @@
+# Entorno virtual
+venv/
+ENV/
+env/
+.venv/
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+
+# Base de datos local
+db.sqlite3
+*.db
+
+# Archivos de configuración locales y logs
+*.log
+*.pot
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno
+*.env
+.env.local
+.env.*
+
+# Archivos de IDE/Editor
+.vscode/
+.idea/
+
+# Node modules (si usas npm/tailwind)
+node_modules/
+
+# Archivos estáticos compilados
+staticfiles/
+static/
+media/
+
+# Migraciones (opcional, si no quieres subirlas)
+# */migrations/*.py
+# !*/migrations/__init__.py
